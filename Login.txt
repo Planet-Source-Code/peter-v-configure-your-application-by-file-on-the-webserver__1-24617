@@ -1,0 +1,42 @@
+// ********** LOCAL FILE ***************
+// own made fileReader.. like ini by api
+// But it captures the data to memory. 
+// This is the contents of the file 
+// local or remote ...
+// By Clicking on the button the object.
+// will change in value . properties.. 
+// Created By Verburgh Peter.
+//-------------------------------------
+
+[LIST1]
+.ENABLED = TRUE;
+.VISIBLE = TRUE;
+ITEMS = 5;    // items in the listbox !!
+ADD.ITEM1 = One;
+ADD.ITEM2 = Two;
+ADD.ITEM3 = End;
+ADD.ITEM4 = Okay;
+ADD.ITEM5 = Wow;
+[FraTXT]
+.ENABLED = TRUE;
+.VISIBLE = TRUE;
+TEXT1 = Created;
+TEXT1.ENABLED = FALSE;
+TEXT2 = Verburgh P.;
+TEXT2.ENABLED = TRUE;
+[FraButton]
+.ENABLED = TRUE;
+.VISIBLE = TRUE;
+COMMAND1.VISIBLE = FALSE;
+COMMAND2.VISIBLE = TRUE;
+[lblMESSAGE]
+.CAPTION = This message you can  find in the
+local file !
+Created by Peter Verburgh.;
+[FraCheck]
+.VISIBLE = TRUE;
+.ENABLED = FALSE;
+CHECK1.VALUE = 1;
+CHECK1.ENABLED = FALSE;
+CHECK2.VALUE = 1;
+CHECK2.ENABLED = FALSE;
